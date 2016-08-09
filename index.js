@@ -1,10 +1,12 @@
+#!/usr/bin/env node
+
 const pinyin = require('pinyin');
 const program = require('commander');
 
 const translate = require('./translator');
 
 program
-  .version('0.0.2')
+  .version('0.0.3')
   .description('单身狗汪化翻译机，把你的话都变成汪星语')
   .option('-e --emoj', '使用emoj来替代汉字汪')
   .option('-i --stdin', '传输标准输入流文本而不是命令行参数')

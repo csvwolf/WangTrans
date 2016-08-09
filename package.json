@@ -1,6 +1,6 @@
 {
   "name": "wangtrans",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "将中文转换为汪星人专用语言",
   "main": "index.js",
   "scripts": {},
@@ -8,6 +8,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/csvwolf/WangTrans.git"
+  },
+  "bin": {
+    "wangtrans": "./index.js"
   },
   "license": "ISC",
   "dependencies": {
