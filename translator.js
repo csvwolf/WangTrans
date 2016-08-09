@@ -1,5 +1,6 @@
 const pinyin = require('pinyin');
 const toClipboard = require('to-clipboard');
+const isChinese = require('is-chinese');
 
 module.exports = function(chunk, word, clip) {
   let message = '';
@@ -8,7 +9,7 @@ module.exports = function(chunk, word, clip) {
       style: pinyin.STYLE_NORMAL
     });
     let content = '';
-    if (result[0][0].length !== val.length)
+    if (isChinese(val))
       if (word) content = `汪(${result[0]})`;
       else content = ` 🐶 (${result[0]})`;
     else
