@@ -1,0 +1,19 @@
+{
+  "name": "wangtrans",
+  "version": "0.0.1",
+  "description": "将中文转换为汪星人专用语言",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Sky Ao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csvwolf/WangTrans.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "pinyin": "^2.8.0",
+    "to-clipboard": "^0.2.0"
+  }
+}
