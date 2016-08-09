@@ -24,12 +24,12 @@ Options:
 
 ## 示例
 ```
-$ node index.js 你好，世界
+$ wangtrans 你好，世界
 汪(ni)汪(hao)，汪(shi)汪(jie)
 
-$ node index.js -e 你好，世界
+$ wangtrans -e 你好，世界
  🐶 (ni) 🐶 (hao)， 🐶 (shi) 🐶 (jie)
 
-$ node index.js --stdin < short_word.txt
+$ wangtrans --stdin < short_word.txt
 Hello。World，汪(ni)汪(hao)汪(shi)汪(jie)。汪(wang)汪(wang)汪(wang)
 ```
