@@ -1,6 +1,6 @@
 {
   "name": "wangtrans",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "将中文转换为汪星人专用语言",
   "main": "index.js",
   "scripts": {},
